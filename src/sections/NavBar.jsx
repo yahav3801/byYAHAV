@@ -70,7 +70,7 @@ const NavBar = () => {
             {
               <img
                 width={"75px"}
-                src="/assets/bYAHAV_logo1.svg"
+                src="/assets/bYahav_logo.svg"
                 alt="logo"
               ></img>
             }
