@@ -8,11 +8,11 @@ import Developer from "../components/Developer";
 const Experience = () => {
   const [animationName, setAnimationName] = useState("idle");
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20 mx-0">
       <div className="w-full text-white-600">
         <h3 className="head-text">My Work Experience</h3>
         <div className="work-container">
-          <div className="work-canvas">
+          <div className="work-canvas ">
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
