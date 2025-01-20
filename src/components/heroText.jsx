@@ -47,7 +47,7 @@ const HeroText = () => {
 
   return (
     <div className="w-full relative z-10 " ref={containerRef}>
-      <div className="h-full flex flex-col md:items-start items-center justify-center md:mt-20">
+      <div className="h-full flex flex-col md:items-start items-center justify-center ">
         {/* Title */}
         <div ref={titleRef} className="overflow-hidden">
           <p className="sm:text-3xl text-xl font-medium text-white md:text-left text-center font-generalsans">

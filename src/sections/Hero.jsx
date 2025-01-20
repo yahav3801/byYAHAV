@@ -49,7 +49,7 @@ const Hero = () => {
       </div>
 
       {/* Right side - Hero Text */}
-      <div className="md:w-1/2 w-full md:h-screen mt-20  md:h-[55vh] flex flex-col justify-center md:items-start items-center px-8 relative z-10 order-1 md:order-2">
+      <div className="md:w-1/2 w-full md:h-screen mt-20 sm:mt-0  md:h-[55vh] flex flex-col justify-center md:items-start items-center px-8 relative z-10 order-1 md:order-2">
         <HeroText />
       </div>
 
