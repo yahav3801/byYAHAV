@@ -80,7 +80,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="c-space my-20" id="about">
+    <section className="c-space my-20 overflow-hidden" id="about">
       <div className="px-4 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-6 gap-4 md:gap-5 h-full">
           {/* Grid Item 1 */}
