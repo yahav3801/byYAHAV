@@ -58,6 +58,43 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: "YBH Shop",
+    desc: "YBH Shop is a user-friendly online store platform that gives you everything you need to sell products online. From showcasing your items and managing your catalog to handling shopping carts and secure payments, it's all built to be simple to use and customize to match your brand.",
+    subdesc:
+      "A high-performance e-commerce solution built with Next.js 15, React Query, and Wix Headless CMS. Leverages React Query's advanced caching system for optimized data fetching and real-time updates. Features a comprehensive API integration for product management, user authentication, inventory tracking, streamlined checkout flow, and powerful search functionality with server-side filtering.",
+    href: "https://ybh-shop-wix-next15-ecommerce.vercel.app",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/ybh-shop.png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #2A1816",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/nextjswhite.png",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Wix Headless",
+        path: "/assets/wix.svg",
+      },
+    ],
+  },
+  {
     title: "YBH Directory",
     desc: "YBH Directory is a platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, browse other pitches, and gain exposure through a clean minimalistic design for a smooth user experience.",
     subdesc:
@@ -128,42 +165,6 @@ export const myProjects = [
         id: 4,
         name: "GSAP",
         path: "/assets/gsap.png",
-      },
-    ],
-  },
-  {
-    title: "Coming Soon",
-    desc: "...",
-    subdesc: "......",
-    href: "",
-    texture: "/textures/project/Coming_Soon.mp4",
-    logo: "/assets/questionmark.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "",
-        path: "/assets/questionmark.png",
-      },
-      {
-        id: 2,
-        name: "",
-        path: "/assets/questionmark.png",
-      },
-      {
-        id: 3,
-        name: "",
-        path: "/assets/questionmark.png",
-      },
-      {
-        id: 4,
-        name: "",
-        path: "/assets/questionmark.png",
       },
     ],
   },
